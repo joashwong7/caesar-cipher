@@ -6,3 +6,6 @@ Usage for CPP (need to compile all files at once) <br>
 ```g++ main.cpp message.cpp message.h```<br>
 
 <a href="https://gcc.gnu.org/"> This requires the GCC or CC compiler</a> 
+
+<a href="https://python.org/">
+For python, requires python interpreter</a> <br>
