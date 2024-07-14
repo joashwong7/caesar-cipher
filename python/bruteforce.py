@@ -1,3 +1,5 @@
+import string
+letters = string.ascii_lowercase
 LETTERS = 'abcdefghijklmnopqrstuvwxyz'
 
 def bruteforce(initial):
