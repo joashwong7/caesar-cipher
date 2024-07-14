@@ -1,4 +1,12 @@
 #include <iostream>
-#include message.h
+#include <message.h>
 
-int 
+int main()
+{
+    message message1;
+    message1.encrypt("zattackz", 4);
+    message1.decrypt();
+
+
+    return 0;
+}
