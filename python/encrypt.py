@@ -1,4 +1,5 @@
-LETTERS = 'abcdefghijklmnopqrstuvwxyz'
+import string
+LETTERS = string.ascii_lowercase
 
 def encrypt(initial, shift):
   """ Use : encrypt("message", 98)
