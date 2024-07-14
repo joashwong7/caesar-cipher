@@ -1,4 +1,5 @@
-LETTERS = 'abcdefghijklmnopqrstuvwxyz'
+import string
+LETTERS = string.ascii_lowercase
 
 def decrypt(initial, shift):
   """ Use : decrypt('gymmuay', 98)
