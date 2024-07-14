@@ -1,6 +1,5 @@
 import string
-letters = string.ascii_lowercase
-LETTERS = 'abcdefghijklmnopqrstuvwxyz'
+LETTERS = string.ascii_lowercase
 
 def bruteforce(initial):
   """ Use : bruteforce('gymmuay')
