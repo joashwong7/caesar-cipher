@@ -3,7 +3,7 @@
 void message::encrypt(std::string messageToEncrypt, int setShift){
     this->setShift = setShift;
     int x = 0;
-
+    //this is to make sure that all letters being used are from a to z
     for(int i = 97; i <= 122; i++){
         alpha.push_back(i);
         x++;
