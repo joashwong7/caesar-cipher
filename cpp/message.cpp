@@ -30,7 +30,7 @@ void message::decrypt(){
     for(const auto& letterD : stre){
             for(size_t v = 0; v < alpha.size(); v++){
                 int shift = ((1 * v) - setShift);
-                if(shift < 0){shift = 24;}; //this will stop negative shift values from occuring
+                if(shift < 0){shift = 25;}; //this will stop negative shift values from occuring
                 if(letterD == alpha[v]){
                         std::cout << alpha[shift];
             }
