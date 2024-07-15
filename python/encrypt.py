@@ -15,3 +15,5 @@ def encrypt(initial, shift):
       output += LETTERS[(LETTERS.index(char) + shift) % len(LETTERS)]
 
   return output
+
+encrypt("intial,12")
