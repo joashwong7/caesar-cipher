@@ -14,3 +14,5 @@ Decrypts text enciphered using Caesar Cipher.
       output += LETTERS[(LETTERS.index(char) - shift) % len(LETTERS)]
       
   return output
+
+  decrypt("message",12)
