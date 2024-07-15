@@ -18,3 +18,5 @@ def bruteforce(initial):
         output += LETTERS[(LETTERS.index(char) + shift) % len(LETTERS)]
     print(str(i) + " : " + output)
   return "end"
+
+bruteforce("message to encrypt")
